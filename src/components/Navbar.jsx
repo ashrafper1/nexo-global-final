@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import servicesData from '../data/servicesData'
-import Logo from '../../assests/nexoglobalinc.png'
+import Logo from '../../assests/nexoglobalinc-3.png'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
